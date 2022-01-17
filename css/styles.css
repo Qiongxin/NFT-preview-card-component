@@ -5,6 +5,7 @@
 
 body {
   background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
   font-family: 'Outfit', sans-serif;
   font-weight: 300;
 }
@@ -14,8 +15,9 @@ main {
   height: 36rem;
   background-color: hsl(216, 50%, 16%);
   border-radius: 15px;
-  margin: 50px auto;
   overflow: hidden;
+  margin: 4% auto;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
 }
 
 p {
