@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+}
+
+main {
+  width: 22rem;
+  height: 36rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.title {
+  display: block;
+  color: hsl(0, 0%, 100%);
+  margin: 20px 0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+span:nth-child(1) {
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  align-items: center;
+}
+
+span > img {
+  margin-right: 10px;
+}
+
+span:nth-child(2) {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+span > :last-child {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  margin-left: 5px;
+}
+
+span > :last-child:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.content > :last-child {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  margin: 20px 0;
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.content {
+  width: 85%;
+  margin: 25px auto;
+  position: relative;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.active-image {
+  visibility: hidden;
+  padding: 42.5%;
+  border-radius: 10px;
+  width: 15%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.view-image:hover .active-image {
+  visibility: visible;
+  background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+.avatar {
+  width: 10%;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
